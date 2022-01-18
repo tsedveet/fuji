@@ -24,7 +24,7 @@ export default function Home() {
       <main>
         <Features />
         <Content1 />
-        <Content />
+        {/* <Content /> */}
       </main>
 
       <Footer />
