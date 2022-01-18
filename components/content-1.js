@@ -11,13 +11,12 @@ const Content1 = () => {
             Удахгүй эхлэх сургалтууд
           </p>
           <div className="grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16">
-            <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
+            <div className="relative flex flex-col items-start justify-end h-full col-span-9 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
               <a
                 href="#_"
                 className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
                 style={{
-                  backgroundImage:
-                    'url("n5.jpg")',
+                  backgroundImage: 'url("n5.jpg")',
                 }}
               ></a>
               <div className="relative z-20 w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-yellow-200 px-7">
@@ -36,13 +35,12 @@ const Content1 = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
+            <div className="relative flex flex-col justify-center items-start  h-full col-span-9 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
               <a
                 href="#_"
                 className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
                 style={{
-                  backgroundImage:
-                    'url("n4.jpg")',
+                  backgroundImage: 'url("n4.jpg")',
                 }}
               ></a>
               <div className="relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7">
@@ -61,13 +59,12 @@ const Content1 = () => {
                 </p>
               </div>
             </div>
-            <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group sm:col-span-12 xl:col-span-4 sm:flex-row xl:flex-col">
+            <div className="relative flex flex-col items-start justify-center h-full col-span-9 overflow-hidden rounded-xl group sm:col-span-12 xl:col-span-4 sm:flex-row xl:flex-col">
               <a
                 href="#_"
                 className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110"
                 style={{
-                  backgroundImage:
-                    'url("n3.jpg")',
+                  backgroundImage: 'url("n3.jpg")',
                 }}
               />
               <div className="relative z-20 flex flex-col items-start justify-center w-full h-auto py-8 text-white bg-yellow-400 border-t-0 border-yellow-200 sm:h-full xl:h-auto px-7">
