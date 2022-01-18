@@ -26,16 +26,16 @@ const Header = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="slide1.jpeg" className="object-cover w-full md:h-132" />
+          <img src="https://source.unsplash.com/1600x900/?tokyo" className="object-cover w-full md:h-132" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slide2.jpeg" className=" object-cover w-full md:h-132" />
+          <img src="https://source.unsplash.com/1600x900/?photograpy" className=" object-cover w-full md:h-132" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slide3.jpeg" className="object-cover w-full md:h-132" />
+          <img src="https://source.unsplash.com/random/1600x900?street" className="object-cover w-full md:h-132" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="slide4.jpeg" className="object-cover w-full md:h-132" />
+          <img src="https://source.unsplash.com/1600x900/?japan" className="object-cover w-full md:h-132" />
         </SwiperSlide>
       </Swiper>
     </>
