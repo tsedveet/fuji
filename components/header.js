@@ -47,8 +47,7 @@ const Header = () => {
           <div className="w-full md:w-1/2">
             <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
               <iframe
-                width={560}
-                height={315}
+                className="w-full h-80"
                 src="https://www.youtube.com/embed/bkKeyVGr8vc"
                 title="YouTube video player"
                 frameBorder={0}
