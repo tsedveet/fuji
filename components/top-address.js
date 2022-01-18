@@ -1,7 +1,7 @@
 const TopAddress = () => {
   return (
-    <div className="bg-indigo-700 rounded flex justify-between">
-      <div className="py-2 px-4 text-white  font-light text-sm font-fira flex">
+    <div className="bg-gray-900 flex justify-center">
+      <div className="py-3 px-4 text-white  font-light text-sm font-fira flex">
         <p className="mr-4">
           🛖 Мөнгөн завьяагийн урд, Оросын Холбооны Улсын ЭСЯ-ны баруун талд
         </p>{" "}

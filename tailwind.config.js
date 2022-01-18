@@ -11,6 +11,10 @@ module.exports = {
         cairo: "'Cairo', sans-serif",
         abel: "'Abel', sans-serif",
       },
+      height: {
+        128: "32rem",
+        132: "36rem",
+      },
     },
   },
   plugins: [],
