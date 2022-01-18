@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        oswald: "'Oswald', sans-serif",
+        fira: "'Fira Code', monospace",
+        cairo: "'Cairo', sans-serif",
+        abel: "'Abel', sans-serif",
+      },
+    },
   },
   plugins: [],
 };

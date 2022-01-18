@@ -23,7 +23,7 @@ export default function Home() {
 
       <main>
         <Features />
-        <Content1 />
+        {/* <Content1 /> */}
         {/* <Content /> */}
       </main>
 

@@ -7,6 +7,7 @@ import NavbarDropdownItem from "./navbar-dropdown-items";
 import NavbarItem from "./navbar-items";
 import Link from "next/link";
 import NavbarMobile from "./navbar-mobile";
+import TopAddress from "./top-address";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -16,6 +17,7 @@ export default function Navbar() {
   return (
     <Popover className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <TopAddress />
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href={"/"}>

@@ -35,6 +35,7 @@ const Header = () => {
                     <polyline points="12 5 19 12 12 19" />
                   </svg>
                 </a>
+                
                 {/* <a
                   href="#_"
                   className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600"
@@ -54,7 +55,6 @@ const Header = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
-
               {/* <img src="banner.jpg" /> */}
             </div>
           </div>
